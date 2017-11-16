@@ -142,7 +142,7 @@ input[type=search]::placeholder{
     width: 40px;
     top: 11px;
     right: 6px;
-    border: 1px solid white;
+    border: 1px solid transparent;
     font-size: 18px;
     color: #212121;
 }
