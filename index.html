@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Todo list App</title>
+</head>
+<body>
+  <h1 class="app-title">'To do' - Javascript app</h1>
+  <header class="app-header">
+      <form id="add-task">
+        <input type="text" id="task" placeholder="Add your activity">
+        <button type="submit" class="add-task-btn" id="add">Add Item</button>
+      </form>
+  </header>
+  <section id="modal" class="modal hidden">
+
+  </section>
+  <main class="app-content">
+    <ul class="main-list">
+      <li class="list-task"><span class="task-name">First item in list</span><i class="ion-trash-a delete-task"></i> <i class="ion-ios-checkmark-outline unchecked"></i></li>      
+    </ul>
+  </main>
+  <footer class="app-footer">
+    <form action="">
+      <input type="search" placeholder="Search" id="search">
+      <button type="submit" class="search-submit"><i class="ion-ios-search"></i></button>
+    </form>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/*Header */
+.app-header{
+    margin-top: 20px;
+    background-color: #328a2e;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+input[type=text]{
+    display: block;
+    width: 93%;
+    padding: 7.5px;
+    margin: 10px auto;
+    border: 1px solid #328a2e;
+    background-color: #5aac56;
+}
+input[type=text]::placeholder{
+    color: #212121;
+    text-indent: 10px;
+    font-size: 14px;
+    font-family: 'Raleway'
+}
+.search-submit:hover{
+    cursor: pointer;
+}
+.add-task-btn{
+    position: absolute;
+    top: 11px;
+    right: 6px;
+    height: 31px;
+    border: 1px solid transparent;
+    background-color: #ebdcdc;
+    font-family: 'Raleway';
+}
+/* End of header*/
+
+/* Section 'Add item'*/
+.add-item-section{
+    border: 1px solid #ccc;
+    border-bottom: none;
+    height: 50px;
+    width: 400px;
+}
+.add-item-heading{
+    display: inline-flex;
+}
+.add-item-btn{
+    display: inline-flex;
+    align-self: right;
+}
+
+/* End of section Add item*/
+
+.app-content{
+    border-top: none;
+    border: 1px solid #ccc;
+    height: 500px;
+    width: 400px;
+    background-color: #ddd;
+}
+.main-list{
+    list-style: none;
+    margin: 20px;
+    padding: 0 0 0 15px;
+}
+.list-task{
+    height: 30px;
+}
+.task-name{
+    width: 80%;
+    display: inline-block;
+    font-size: 16px;
+}
+.ion-trash-a, .ion-ios-checkmark-outline{
+    font-size: 1.75em;
+}
+.delete-task{
+    width: 10%;
+    margin: 5px;
+    padding: 0;
+}
+.delete-task:hover{
+    color: #e33f3f;
+    cursor: pointer;
+}
+.unchecked{
+    width: 10%;
+    margin: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.unchecked:hover{
+    color: 	#328a2e;
+}
+.checked{
+    width: 10%;
+    margin: 5px;
+    padding: 0;
+    color: 	#034500;
+}
+.app-footer{
+    background-color: #328a2e;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ccc;
+    position: relative;
+    border-top: 0;
+}
+input[type=search] {
+    display: block;
+    width: 96%;
+    padding: 7.5px;
+    margin: 10px;
+    border: 1px solid #328a2e;
+    background-color: #5aac56; 
+}
+input[type=search]::placeholder{
+    color: #212121;
+    text-indent: 10px;
+    font-size: 14px;
+    font-family: 'Raleway';
+}
+.search-submit{
+    position: absolute;
+    display: inline-block;
+    height: 31px;
+    width: 40px;
+    top: 11px;
+    right: 6px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: #212121;
+}
